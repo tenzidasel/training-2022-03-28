@@ -1,0 +1,51 @@
+.container {
+    width: 60%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    min-width: 618px;
+}
+.header {
+    text-align: center;
+}
+.split, .full {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    height: 40px;
+    width: 42.75%;
+    font-size: 18px;
+    border-radius:8px;
+    margin-bottom: 12px;
+}
+
+.condition{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: conter;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.RegisterButton{
+    background-color: #6200ee;
+    color: white;
+}
+.smallButton{
+    background-color: #6200ee;
+    color: white;
+}
+.SignInButton {
+    background-color: rgb(46, 125, 50);
+    color: white;
+}
